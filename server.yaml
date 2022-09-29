@@ -1,0 +1,14 @@
+-  request:
+      url: ^/html/200
+      method: GET
+   response:
+    - status: 200
+      latency: 1000
+      body: >
+        <!DOCTYPE html>
+        <html>
+          <body>
+            <h1>Server Test</h1>
+            <p>Testing...</p>
+          </body>
+        </html>
